@@ -10,14 +10,15 @@ export default function PageToTopButton() {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 300) {
-        setIsVisible(true); // Button anzeigen, wenn mehr als 300px gescrollt
+        setIsVisible(true); // Button anzeigen, wenn mehr als 500px gescrollt
       } else {
-        setIsVisible(false); // Button ausblenden, wenn weniger als 300px gescrollt
+        setIsVisible(false); // Button ausblenden, wenn weniger als 500px gescrollt
       }
     };
 
     window.addEventListener("scroll", handleScroll);
 
+    // Cleanup-Funktion beim Verlassen der Komponente
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -32,13 +33,14 @@ export default function PageToTopButton() {
   };
 
   return (
-    <button
-      onClick={scrollToTop}
-      className={`fixed bottom-6 right-6 p-4 rounded-full bg-purple-400 bg-opacity-35 text-white shadow-lg transform 
-       transition-all duration-500 ease-in-out hover:scale-110`}
-      
-    >
-      <FaArrowUp size={24} />
-    </button>
+    // Der Button wird nur gerendert, wenn der isVisible-Status wahr ist
+    isVisible && (
+      <button
+        onClick={scrollToTop}
+        className={`fixed bottom-6 right-6 p-4 rounded-full bg-purple-400 bg-opacity-35 text-white shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110`}
+      >
+        <FaArrowUp size={24} />
+      </button>
+    )
   );
 }
