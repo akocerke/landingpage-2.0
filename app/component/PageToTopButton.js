@@ -37,7 +37,7 @@ export default function PageToTopButton() {
     isVisible && (
       <button
         onClick={scrollToTop}
-        className={`fixed bottom-6 right-6 p-4 rounded-full bg-purple-400 bg-opacity-35 text-white shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110`}
+        className={`z-50 fixed bottom-6 right-6 p-4 rounded-full bg-purple-400 bg-opacity-75 text-white shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110`}
       >
         <FaArrowUp size={24} />
       </button>

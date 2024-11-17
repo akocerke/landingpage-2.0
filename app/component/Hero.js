@@ -16,7 +16,7 @@ export default function Hero() {
           data-aos-offset="200"
           className="drop-shadow-md dark:drop-shadow-[0_5px_5px_rgba(128,0,128,1)]  text-center text-6xl font-bold transition-transform duration-300"
         >
-          Welcome to the Future 🚀
+          Welcome to the Future
         </h1>
         <p
           data-aos="fade-up"

@@ -21,7 +21,7 @@ export default function Features() {
         ></div>{" "}
         {/* Höhe anpassen */}
         <h2
-          data-aos="fade-right"
+          data-aos="fade-left"
           className="text-6xl font-bold text-gray-100 drop-shadow-md dark:drop-shadow-[0_5px_5px_rgba(128,0,128,1)]"
         >
           Features

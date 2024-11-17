@@ -9,8 +9,8 @@ const ToastContainerComponent = () => {
       position="top-center"
       autoClose={3000}
       hideProgressBar={false}
-      closeButton={false}
-      newestOnTop={false}
+      closeButton={true}
+      newestOnTop={true}
       className="toast-position"
     />
   );
