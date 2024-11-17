@@ -1,4 +1,3 @@
-import localFont from "next/font/local";
 import "./globals.css";
 import ToastContainerComponent from "./component/ToastContainerComponent.";
 import ThemeToggle from "./component/ThemeToggle";
