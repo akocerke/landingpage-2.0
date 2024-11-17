@@ -1,6 +1,7 @@
 import "./globals.css";
 import ToastContainerComponent from "./component/ToastContainerComponent.";
-import ThemeToggle from "./component/ThemeToggle";
+import GithubLink from "./component/GitHub";
+import Footer from "./component/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -13,9 +14,10 @@ export default function RootLayout({ children }) {
       <body>
         <ToastContainerComponent/>
         
-          <ThemeToggle /> {/* Hier wird der Theme-Toggle eingebunden */}
+          
         
         {children}
+        <Footer/>
       </body>
     </html>
   );

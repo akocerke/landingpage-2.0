@@ -26,7 +26,7 @@ export default function ThemeToggle() {
   return (
     <button 
       onClick={toggleTheme} 
-      className="fixed right-4 top-4 sm:right-3 sm:top-3 md:right-5 md:top-5 z-50 bg-transparent">
+      className="z-50 p-2 fixed top-5 left-4 pr-6">
       {theme === "light" ? (
         <FaSun size={24} className="text-gray-300 hover:text-orange-300" />
       ) : (
