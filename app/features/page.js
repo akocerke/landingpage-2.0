@@ -32,9 +32,9 @@ export default function Features() {
       <div className="flex flex-wrap justify-center items-center gap-8 pt-11">
         <div
           data-aos="zoom-in"
-          className="bg-white dark:bg-slate-800 dark:text-gray-200 p-6 rounded shadow-lg text-center dark:border dark:border-teal-400"
+          className="bg-gray-100 dark:bg-slate-800 dark:text-gray-200 p-6 rounded shadow-lg text-center dark:border dark:border-teal-400"
         >
-          <h3 className="text-xl font-bold text-gray-700 dark:text-gray-300">
+          <h3 className="text-xl font-bold text-gray-700 dark:text-gray-200">
             Responsive Design
           </h3>
           <p className="mt-4 text-gray-600 dark:text-gray-400">
@@ -44,7 +44,7 @@ export default function Features() {
         <div
           data-aos="zoom-in"
           data-aos-delay="100"
-          className="bg-white p-6 rounded shadow-lg text-center dark:bg-slate-800 dark:border dark:border-teal-400"
+          className="bg-gray-100 p-6 rounded shadow-lg text-center dark:bg-slate-800 dark:border dark:border-teal-400"
         >
           <h3 className="text-xl font-bold text-gray-700 dark:text-gray-200">
             Dark/Light Mode

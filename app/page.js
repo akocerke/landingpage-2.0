@@ -4,7 +4,7 @@ import Features from "./features/page";
 import PageToTopButton from "./component/PageToTopButton";
 import ToastifyPage from "./toastify/page";
 import ThemeToggle from "./component/ThemeToggle";
-
+import ModalExample from "./modal/page";
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
     <Hero />
     <Features/>
     <ToastifyPage/>
+    <ModalExample/>
     
     </>
     

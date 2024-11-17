@@ -33,7 +33,7 @@ export default function ToastifyPage() {
     });
 
   return (
-    <section className="min-h-screen py-20 bg-gradient-to-l from-purple-600 to-blue-500 dark:bg-gradient-to-r dark:from-gray-900 dark:to-purple-950">
+    <section className="max-h-screen py-20 bg-gradient-to-l from-purple-600 to-blue-500 dark:bg-gradient-to-r dark:from-gray-900 dark:to-purple-950">
       {/* Header */}
       <div className="flex items-center justify-center pb-11 shadow-md p-4">
         <div
@@ -96,7 +96,6 @@ export default function ToastifyPage() {
         </div>
       </div>
 
-      {/* Footer */}
       <div className="flex flex-col justify-center items-center mt-11 p-4 text-center min-h-[100px] max-w-[400px] mx-auto">
         <p className="text-gray-200 text-center" data-aos="fade-up">
           If you want to know how it works
