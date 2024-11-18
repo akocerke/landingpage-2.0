@@ -1,6 +1,5 @@
 import "./globals.css";
 import ToastContainerComponent from "./component/ToastContainerComponent.";
-import GithubLink from "./component/GitHub";
 import Footer from "./component/Footer";
 
 export const metadata = {
