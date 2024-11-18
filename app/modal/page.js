@@ -9,14 +9,8 @@ export default function ModalExample() {
     AOS.init({ duration: 1000 }); // AOS initialisieren
   }, []);
 
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
   return (
     <section
-      id="features"
       className="max-h-screen py-28 bg-gradient-to-l from-purple-600 to-blue-500 dark:bg-gradient-to-r dark:from-gray-900 dark:to-purple-950"
     >
       {/* Header mit Border */}
