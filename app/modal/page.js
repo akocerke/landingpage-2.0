@@ -34,7 +34,7 @@ export default function ModalExample() {
         </h2>
       </div>
       <p
-        className="text-center text-gray-100 dark:text-gray-300 dark:drop-shadow-[0_5px_5px_rgba(128,0,128,1)] pt-6"
+        className="text-center text-gray-100 dark:text-gray-300 dark:drop-shadow-[0_5px_5px_rgba(128,0,128,1)] pt-11 pb-11"
         data-aos="fade-up"
       >
         Add dialogs to your site for light boxes, user notifications, or
