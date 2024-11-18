@@ -51,7 +51,7 @@ export default function ModalExample() {
         >
           Modal Demo
         </button>
-        <dialog id="my_modal_1" className="modal">
+        <dialog id="my_modal_1" className="modal bg-gray-950 bg-opacity-25">
           <div className="modal-box dark:bg-slate-900 dark:text-gray-200">
             <h3 className="font-bold text-lg">Hello!</h3>
             <p className="py-4">
@@ -60,7 +60,15 @@ export default function ModalExample() {
             <div className="modal-action">
               <form method="dialog">
                 {/* if there is a button in form, it will close the modal */}
-                <button className="btn btn-warning dark:text-gray-600 dark:hover:text-gray-300 hover:btn-accent">Close</button>
+                <form method="dialog">
+                  {/* if there is a button in form, it will close the modal */}
+                  <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                    ✕
+                  </button>
+                </form>
+                <button className="btn btn-warning dark:text-gray-600 dark:hover:text-gray-300 hover:btn-accent">
+                  Close
+                </button>
               </form>
             </div>
           </div>
@@ -71,7 +79,7 @@ export default function ModalExample() {
         <p className="text-gray-200 text-center" data-aos="fade-up">
           If you want to know how it works,
           <a
-            href="https://react-bootstrap.netlify.app/docs/components/modal"
+            href="https://daisyui.com/components/modal/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center drop-shadow-md text-gray-300 hover:text-orange-200 hover:scale-110 duration-300 dark:text-gray-400 dark:hover:text-orange-200"
