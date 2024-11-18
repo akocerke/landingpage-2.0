@@ -22,7 +22,7 @@ export default function Hero() {
           data-aos="fade-up"
           className="text-lg mb-8 pt-6 drop-shadow-md dark:drop-shadow-[0_5px_5px_rgba(128,0,128,1)] text-center"
         >
-          Explore the best of React, Bootstrap and Tailwind magic.
+          Explore the best of React, DaisyUI and Tailwind magic.
         </p>
       </div>
       <div data-aos="fade-up" data-aos-offset="200" className="pt-14">

@@ -2,8 +2,6 @@
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Modal from "react-bootstrap/Modal";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 
 export default function ModalExample() {
@@ -34,47 +32,39 @@ export default function ModalExample() {
         >
           Modal
         </h2>
-        
       </div>
-      <p className="text-center text-gray-100 dark:text-gray-300 dark:drop-shadow-[0_5px_5px_rgba(128,0,128,1)] pt-6" data-aos="fade-up">
-          Add dialogs to your site for light boxes, user notifications, or
-          completely custom content.
-        </p>
+      <p
+        className="text-center text-gray-100 dark:text-gray-300 dark:drop-shadow-[0_5px_5px_rgba(128,0,128,1)] pt-6"
+        data-aos="fade-up"
+      >
+        Add dialogs to your site for light boxes, user notifications, or
+        completely custom content.
+      </p>
       <div
         className="flex items-center justify-center pt-11"
         data-aos="zoom-in"
       >
+        {/* Open the modal using document.getElementById('ID').showModal() method */}
         <button
-          className="bg-red-700 hover:bg-blue-700 px-4 py-3 hover:scale-110 duration-300 text-gray-100 rounded-lg shadow-lg"
-          onClick={handleShow}
+          className="btn btn-warning dark:text-gray-600 dark:hover:text-gray-300 hover:btn-accent"
+          onClick={() => document.getElementById("my_modal_1").showModal()}
         >
-          Launch demo modal
+          Modal Demo
         </button>
-
-        <Modal
-          show={show}
-          dialogClassName="modal-dialog-centered"
-          onHide={handleClose}
-          className="bg-gray-950 bg-opacity-25"
-        >
-          <Modal.Header
-            closeButton
-            className="dark:bg-gray-600 dark:text-gray-200"
-          >
-            <Modal.Title>Modal heading</Modal.Title>
-          </Modal.Header>
-          <Modal.Body className="dark:bg-gray-600 dark:text-gray-200">
-            Woohoo, you are reading this text in a modal!
-          </Modal.Body>
-          <Modal.Footer className="dark:bg-gray-600 dark:text-gray-200">
-            <button
-              className="shadow-lg bg-red-700 hover:bg-blue-700 px-4 py-2 duration-300 text-gray-100 rounded-lg"
-              onClick={handleClose}
-            >
-              Close
-            </button>
-          </Modal.Footer>
-        </Modal>
+        <dialog id="my_modal_1" className="modal">
+          <div className="modal-box dark:bg-slate-900 dark:text-gray-200">
+            <h3 className="font-bold text-lg">Hello!</h3>
+            <p className="py-4">
+              Press ESC key or click the button below to close
+            </p>
+            <div className="modal-action">
+              <form method="dialog">
+                {/* if there is a button in form, it will close the modal */}
+                <button className="btn btn-warning dark:text-gray-600 dark:hover:text-gray-300 hover:btn-accent">Close</button>
+              </form>
+            </div>
+          </div>
+        </dialog>
       </div>
 
       <div className="flex flex-col justify-center items-center mt-11 p-4 text-center min-h-[100px] max-w-[400px] mx-auto">

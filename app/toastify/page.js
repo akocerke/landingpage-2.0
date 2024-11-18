@@ -44,7 +44,7 @@ export default function ToastifyPage() {
           data-aos="fade-left"
           className="text-6xl text-center font-bold text-gray-100 drop-shadow-md dark:drop-shadow-[0_5px_5px_rgba(128,0,128,1)]"
         >
-          Toastify Examples
+          Toastify
         </h2>
       </div>
 

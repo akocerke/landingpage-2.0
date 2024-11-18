@@ -56,7 +56,7 @@ export default function AccordionExample() {
           data-aos="fade-left"
           className="text-center text-6xl font-bold text-gray-100 drop-shadow-md dark:drop-shadow-[0_5px_5px_rgba(128,0,128,1)]"
         >
-          Accordion Demo
+          Accordion
         </h2>
       </div>
       <p
