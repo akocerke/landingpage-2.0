@@ -10,9 +10,7 @@ export default function ModalExample() {
   }, []);
 
   return (
-    <section
-      className="max-h-screen py-28 bg-gradient-to-l from-purple-600 to-blue-500 dark:bg-gradient-to-r dark:from-gray-900 dark:to-purple-950"
-    >
+    <section className="max-h-screen py-28 bg-gradient-to-l from-purple-600 to-blue-500 dark:bg-gradient-to-r dark:from-gray-900 dark:to-purple-950">
       {/* Header mit Border */}
       <div className="flex items-center justify-center pb-11 shadow-md">
         <div
@@ -45,6 +43,7 @@ export default function ModalExample() {
         >
           Modal Demo
         </button>
+
         <dialog id="my_modal_1" className="modal bg-gray-950 bg-opacity-25">
           <div className="modal-box dark:bg-slate-900 dark:text-gray-200">
             <h3 className="font-bold text-lg">Hello!</h3>
@@ -52,18 +51,19 @@ export default function ModalExample() {
               Press ESC key or click the button below to close
             </p>
             <div className="modal-action">
-              <form method="dialog">
-                {/* if there is a button in form, it will close the modal */}
-                <form method="dialog">
-                  {/* if there is a button in form, it will close the modal */}
-                  <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                    ✕
-                  </button>
-                </form>
-                <button className="btn btn-warning dark:text-gray-600 dark:hover:text-gray-300 hover:btn-accent">
-                  Close
-                </button>
-              </form>
+              <button
+                className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                onClick={() => document.getElementById("my_modal_1").close()} // Close on X button click
+              >
+                ✕
+              </button>
+
+              <button
+                className="btn btn-warning dark:text-gray-600 dark:hover:text-gray-300 hover:btn-accent"
+                onClick={() => document.getElementById("my_modal_1").close()} // Close on Close button click
+              >
+                Close
+              </button>
             </div>
           </div>
         </dialog>
