@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Demo App mit DaisyUI und Tailwind CSS**
 
-## Getting Started
+Dies ist eine Demo-Anwendung, die entwickelt wurde, um moderne Frontend-Technologien zu demonstrieren. Sie kombiniert **DaisyUI**, **Tailwind CSS**, und eine Reihe weiterer moderner UI-Bibliotheken und Frameworks, um eine benutzerfreundliche, zugängliche und ansprechende Oberfläche zu bieten. 
 
-First, run the development server:
+## **Features**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🌟 **Modernes Design**
+- **DaisyUI**: Nutzt DaisyUI-Komponenten, um ein elegantes und funktionales Design zu schaffen, das einfach anzupassen ist.
+- **Tailwind CSS**: Ermöglicht eine schnelle und flexible Gestaltung mit Utility-first-CSS-Klassen.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🎨 **Dark & Light Mode**
+- Dynamischer Wechsel zwischen dunklem und hellem Modus für eine angenehme Nutzererfahrung bei allen Lichtverhältnissen.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 📱 **Responsive Design**
+- Optimiert für verschiedene Gerätegrößen – von Smartphones bis zu großen Desktop-Bildschirmen.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔥 **Animationen**
+- **AOS (Animate on Scroll)**: Fügt beeindruckende Scroll-Animationen hinzu, um die Benutzererfahrung zu verbessern.
 
-## Learn More
+### 🔐 **Modale Fenster**
+- Implementierung von interaktiven und zugänglichen **Modal-Komponenten**, um zusätzliche Inhalte oder Aktionen anzuzeigen.
 
-To learn more about Next.js, take a look at the following resources:
+### 🪄 **Zugängliche Akkordeons**
+- **react-accessible-accordion**: Bietet zugängliche und funktionale Akkordeons, die den WAI-ARIA-Richtlinien entsprechen.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📢 **Benachrichtigungen**
+- **react-toastify**: Zeigt stilvolle und anpassbare Toast-Benachrichtigungen für eine reibungslose Kommunikation mit den Nutzern.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## **Technologien**
 
-## Deploy on Vercel
+- **Framework**: React.js
+- **Styling**: Tailwind CSS mit DaisyUI-Erweiterung
+- **Animationen**: AOS (Animate on Scroll)
+- **UI-Komponenten**: Modal, react-accessible-accordion
+- **Benachrichtigungen**: react-toastify
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## **Screenshots**
+![app-screenshot-1](image.png)
+![app-screenshot-2](image2.png)
+![app-screenshot-3](image1.png)
+![app-screenshot-4](image3.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+

@@ -12,9 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="dark">
       <body>
         <ToastContainerComponent />
-        <main>
-        {children}
-</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
