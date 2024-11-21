@@ -11,12 +11,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
       <body>
-        <ToastContainerComponent/>
-        
-          
-        
+        <ToastContainerComponent />
+        <main>
         {children}
-        <Footer/>
+</main>
+        <Footer />
       </body>
     </html>
   );
