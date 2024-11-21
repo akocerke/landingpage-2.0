@@ -1,6 +1,6 @@
 # **Demo App mit DaisyUI und Tailwind CSS**
 
-Dies ist eine Demo-Anwendung, die entwickelt wurde, um moderne Frontend-Technologien zu demonstrieren. Sie kombiniert **DaisyUI**, **Tailwind CSS**, und eine Reihe weiterer moderner UI-Bibliotheken und Frameworks, um eine benutzerfreundliche, zugängliche und ansprechende Oberfläche zu bieten. 
+Dies ist eine Demo-Anwendung, die entwickelt wurde, um moderne Frontend-Technologien zu demonstrieren. Sie kombiniert **DaisyUI**, **Tailwind CSS**, und eine Reihe weiterer moderner UI-Bibliotheken und Frameworks, um eine benutzerfreundliche, zugängliche und ansprechende Oberfläche zu bieten.
 
 ## **Features**
 
@@ -35,9 +35,19 @@ Dies ist eine Demo-Anwendung, die entwickelt wurde, um moderne Frontend-Technolo
 - **Benachrichtigungen**: react-toastify
 
 ## **Screenshots**
+
 ![app-screenshot-1](image.png)
 ![app-screenshot-2](image2.png)
 ![app-screenshot-3](image1.png)
 ![app-screenshot-4](image3.png)
+
+---
+
+## **Demo**
+
+Die Anwendung ist live!
+
+👉 [Demo-Link zur App](https://landingpage-2-0.vercel.app/)
+
 
 
