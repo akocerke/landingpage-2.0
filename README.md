@@ -47,7 +47,7 @@ Dies ist eine Demo-Anwendung, die entwickelt wurde, um moderne Frontend-Technolo
 
 Die Anwendung ist live!
 
-👉 [Demo-Link zur App](https://landingpage-2-0.vercel.app/)
+👉 [Demo-Link zur App](https://landingpage-2-0.vercel.app/){:target="_blank"}
 
 
 
